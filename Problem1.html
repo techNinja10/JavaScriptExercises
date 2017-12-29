@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Java Script Exercises</title>
+</head>
+<body>
+<script type="text/javascript">
+var date = new Date();
+var currentdate = date.getDay();
+var days = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+document.write("Today is :"+days[currentdate]+".<br/>");
+var minutes = date.getMinutes();
+var seconds = date.getSeconds()
+var hour=date.getHours();
+var hr = hour>12?hour-12:hour;
+document.write("CurrentTime is :" +hr +" hr "+minutes+" min "+seconds+" sec");
+</script>
+</body>
+</html>
